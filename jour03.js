@@ -82,17 +82,12 @@ for (var i = 0; i <= limit ; i++) {
 //("! oixenoK olleH")
 
 var sentence = "Hello Konexio !"
-console.log(sentence.length)
-for (var i = 0; i >= limit ; i--) {  
-    console.log(i) // retournera tous les nombres de 0 à 20 !
-    sentence.length = sentence - i
-    console.log(sentence)
+var inverse = ""
+
+for (var i = sentence.length - 1; i >= 0 ; i--) {  
+    console.log(sentence[i]) 
+    inverse = inverse + sentence[i]
+    console.log(inverse)
   }
 //for ([expressionInitiale]; [condition]; [expressionIncrément])
 //instruction
-
-
-
-
-
-
